@@ -6,3 +6,8 @@
     font-size: 80px;
     color: green;
 }
+
+.centrado {
+    width: 60vw;
+    margin: auto;
+}

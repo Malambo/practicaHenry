@@ -4,25 +4,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
         <title>Mi Primer Sitio Web</title>
     </head>
 
-    <body>
+    <body class="container">
 
         <header>
             <h1>Primera página</h1>
-            <a href="#">Portada</a>
-            <a href="./deportes.html">Deportes</a>
-            <a href="./politica.html">Política</a>
-            <a href="./contacto.html">Contactanos</a>
             <p>Ejercicio Nº1 del pre curso de soyHenry</p>
-            <br />
+            <nav>
+                <a href="#">Portada</a>
+                <a href="./deportes.html">Deportes</a>
+                <a href="./politica.html">Política</a>
+                <a href="./contacto.html">Contactanos</a>
+            </nav>
+            
         </header>
 
         <main>
             <section>
                 <h2>Política</h2>
-                <br />
+
                 <article>
                     <div>
                         <h6>POLÍTICA EDUCATIVA</h6>
@@ -32,7 +35,8 @@
                         <p>Dolor sit amet consectetur adipisicing elit. Ratione error, voluptate nobis tempore facere nemo totam iste dolorum repudiandae nulla, officia assumenda ducimus, ab sed illum vitae veritatis molestias rerum.</p>
                     </div>
                 </article>
-                <hr />
+
+                <div class="container-secundario">
                 <article>
                     <div>
                         <h3>Simposio Presidencial de Elocuencia: Competición para ver quién puede esquivar preguntas con la mayor gracia</h3>
@@ -40,15 +44,18 @@
                         <p>Dolor sit amet consectetur adipisicing elit. Ratione error, voluptate nobis tempore facere nemo totam iste dolorum repudiandae nulla, officia assumenda ducimus, ab sed illum vitae veritatis molestias rerum.</p>
                     </div>
                 </article>
-                <hr />
+
                 <article>
                     <div>
-                        <h6>GALA POLÍTICA</h6>
+                        <p class="volanta">GALA POLÍTICA</h6>
                         <h3>Desfile de modelos con trajes de presidenciables</h3>
                         <p>¿Quién dijo que la moda no tiene lugar en la política? Presentamos una pasarela donde la elegancia política y el estilo presidencial se encuentran en un mismo escenario.</p>
                         <p>Dolor sit amet consectetur adipisicing elit. Ratione error, voluptate nobis tempore facere nemo totam iste dolorum repudiandae nulla, officia assumenda ducimus, ab sed illum vitae veritatis molestias rerum.</p>
                     </div>
+                </div>
+
                 </article>
+
                 <a href='./politica.html'>Política</a>
             </section>
             <br /><hr /><hr /><br />
@@ -59,20 +66,22 @@
                         <h3>Virlipendias goleó a Porpinilos</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rerum excepturi quisquam sint ipsum. Consequuntur alias molestiae illo ut, nostrum et a dignissimos vero debitis doloribus doloremque tempora recusandae fuga.</p>
                 </article>
-                <hr />
+
+                <div class="container-secundario">
                 <article>
                     <div>
                         <h3>¡Maratón de siestas olímpicas! Atletas compiten por la medalla de oro en dormir durante el día más largo del año</h3>
                         <p>¡Mientras algunos corren, otros roncan! Descubrimos quiénes son los verdaderos campeones del descanso.</p>
                         <img src="./correrDormir.jpg" alt="corre cama" width="640">
                 </article>
-                <hr />
+
                 <article>
                     <div>
                         <h3>Campeonato mundial de lanzamiento de objetos raros: ¡Zapatos, calcetines y llaves al aire!</h3>
                         <p>¿Cansado de los lanzamientos de jabalina y disco? Aquí presentamos una competición donde el único requisito es no tener relación alguna con el deporte.</p>
                         <p>Dicta, sit voluptatibus facilis doloribus error voluptas atque! Culpa pariatur asperiores, vitae repellendus, ut consequatur, officia ipsa blanditiis aliquid temporibus nisi est?</p>
                 </article>
+            </div>
                 <a href='./deportes.html'>Deportes</a>
             </section>
         </main>
